@@ -6,7 +6,23 @@
 
     <groupId>org.example</groupId>
     <artifactId>ConteinerSolution</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0-Final</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <java.version>1.8</java.version>
+        <junit.version>4.12</junit.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
 
 
 </project>
